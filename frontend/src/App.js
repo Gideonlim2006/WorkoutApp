@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // pages & components
 import Home from './pages/Home'
+import Edit from './pages/Edit'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
             <Route 
               path="/" 
               element={<Home />} 
+            />
+            <Route 
+              path="/edit/:id" 
+              element={<Edit />} 
             />
           </Routes>
         </div>

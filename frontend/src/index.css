@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #00a2ff;
   --error: #e7195a;
 }
 body {
@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #00a2ff;
   text-decoration: none;
 }
 .pages{
