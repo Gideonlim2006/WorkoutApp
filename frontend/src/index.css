@@ -44,7 +44,7 @@ header a {
   margin: 20px auto;
   padding: 20px;
   position: relative;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 1px 1px 5px #8a8a8a;
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
@@ -99,4 +99,8 @@ div.error {
 }
 input.error {
   border: 1px solid var(--error);
+}
+
+span:hover {
+  box-shadow: 1px 1px 5px #333;
 }
